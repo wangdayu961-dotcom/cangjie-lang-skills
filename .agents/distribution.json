@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "target": "agents",
+  "adapter_version": "1",
+  "toolchain_version": "0.1.0",
+  "bundle_name": "cangjie-lang",
+  "bundle_version": "1.0.0",
+  "packages": [
+    {
+      "name": "cangjie-lang-core",
+      "version": "1.0.0",
+      "optional": false
+    },
+    {
+      "name": "cangjie-lang-reference",
+      "version": "1.0.0",
+      "optional": true
+    }
+  ],
+  "skills": [
+    {
+      "name": "cangjie-lang-features",
+      "source_path": "cangjie-lang-features",
+      "package_name": "cangjie-lang-core",
+      "target_distribution_path": "skills/cangjie-lang-features"
+    },
+    {
+      "name": "cangjie-original-docs",
+      "source_path": "cangjie-original-docs",
+      "package_name": "cangjie-lang-reference",
+      "target_distribution_path": "skills/cangjie-original-docs"
+    },
+    {
+      "name": "cangjie-std",
+      "source_path": "cangjie-std",
+      "package_name": "cangjie-lang-core",
+      "target_distribution_path": "skills/cangjie-std"
+    },
+    {
+      "name": "cangjie-stdx",
+      "source_path": "cangjie-stdx",
+      "package_name": "cangjie-lang-core",
+      "target_distribution_path": "skills/cangjie-stdx"
+    }
+  ],
+  "created_at": "2026-05-19T08:09:38Z",
+  "git_commit": "ca7537777354e33909f6842a9c85200963fd0af8"
+}
