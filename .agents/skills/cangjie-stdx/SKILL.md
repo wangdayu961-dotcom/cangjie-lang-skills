@@ -3,7 +3,7 @@ name: cangjie-stdx
 description: "提供仓颉语言扩展标准库stdx常用功能速查文档，包括stdx配置构建/json编解码/日志/编码/压缩/序列化/HTTP客户端/HTTP服务端/WebSocket/TLS安全通信等"
 ---
 
-请按需查询当前目录下的工具文档 testxiatian：
+请按需查询当前目录下的工具文档 testxiatianupdate  ：
 
 [config](./config/README.md)：扩展标准库的下载、配置、构建指导
 
